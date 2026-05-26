@@ -94,7 +94,7 @@ Backend-Py/
 Clone repository:
 
 ```bash
-git clone YOUR_REPO_LINK
+git clone https://github.com/samoff04/Backend-Py.git
 ```
 
 Install dependencies:
