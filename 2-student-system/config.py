@@ -1,0 +1,1 @@
+DATABASE = "students.db"
