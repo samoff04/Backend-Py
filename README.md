@@ -1,90 +1,124 @@
-# Python Backend Projects
+# Python Backend
 
-A collection of backend development projects built using Python, Flask and SQLite to learn REST APIs, databases, authentication and backend architecture.
+A complete backend development portfolio built using **Python, Flask, and SQLite**, focused on REST APIs, authentication systems, database handling, analytics, and scalable backend architecture.
+
+This repository demonstrates a progression from basic CRUD APIs to intermediate industry-level backend systems.
 
 ---
 
-## Projects Included
+# Overview
 
-### 1. Todo API
+This repository contains multiple backend projects that build real-world backend engineering skills step by step.
+
+Each project focuses on one important backend concept used in production systems such as APIs, authentication, databases, filtering, and analytics.
+
+---
+
+# Projects Included
+
+## 1. Todo API
 Basic CRUD API for task management.
 
-**Concepts**
+Concepts:
 - Flask basics
-- Routes
-- JSON requests/responses
+- REST API structure
+- JSON request/response handling
 - CRUD operations
 
 ---
 
-### 2. Student Management System
-Backend with SQLite database integration.
+## 2. Student Management System
+Backend system with SQLite database integration.
 
-**Concepts**
-- Flask + SQLite
-- Database connection
-- CRUD with database
-- Project structure
-
----
-
-### 3. Blog API
-Blog post backend with timestamps and structured architecture.
-
-**Concepts**
-- Blueprints
-- Database models
-- Timestamps
-- REST APIs
+Concepts:
+- Flask + SQLite integration
+- Database operations
+- Persistent storage
+- Structured CRUD design
 
 ---
 
-### 4. Authentication System
-User registration and login backend.
+## 3. Blog API
+Structured backend for blog management system.
 
-**Concepts**
-- Password hashing
-- bcrypt
-- Authentication flow
-- Service layer
+Concepts:
+- Blueprint architecture
+- Modular backend design
+- RESTful API design
+- Timestamp handling
+- Clean project structure
 
 ---
 
-### 5. E-Commerce Backend
-Mini backend combining products, cart and orders.
+## 4. Authentication System
+User authentication system with secure login flow.
 
-**Concepts**
+Concepts:
+- Password hashing (bcrypt)
+- User registration & login flow
+- Authentication logic
+- Service layer architecture
+- Security fundamentals
+
+---
+
+## 5. E-Commerce Backend (Mini System)
+A simplified backend simulating an e-commerce system.
+
+Concepts:
 - Multi-module architecture
-- Business logic
-- Services
-- Cart and checkout flow
+- Business logic separation
+- Product, cart, and order flow
+- Scalable backend design
+- System thinking basics
 
 ---
 
-## Tech Stack
+## 6. JWT Authentication System (Advanced)
+Token-based authentication system used in real-world applications.
+
+Concepts:
+- JWT token generation & verification
+- Secure authentication flow
+- Protected routes
+- Token expiry handling
+- Industry-standard login system
+
+---
+
+## 7. Task Management API (Advanced)
+Advanced task system with user-based filtering and structured APIs.
+
+Concepts:
+- User-specific data handling
+- Filtering & query-based APIs
+- Task status tracking
+- Priority-based management
+- Backend data structuring
+
+---
+
+# Tech Stack
 
 - Python
 - Flask
 - SQLite
-- REST API
+- REST APIs
 - bcrypt
+- PyJWT
+- Modular backend architecture
 
 ---
 
-## Project Structure
+# Project Structure
 
-```text
-Backend-Py/
+InternProjects/
 │
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── 1-todo-api/
-├── 2-student-system/
-├── 3-blog-api/
-├── 4-auth-system/
-└── 5-ecommerce/
+├── 01_todo_api/
+├── 02_student_management/
+├── 03_blog_api/
+├── 04_auth_system/
+└── 05_ecommerce_backend/
 ```
 
 ---
@@ -94,18 +128,28 @@ Backend-Py/
 Clone repository:
 
 ```bash
-git clone https://github.com/samoff04/Backend-Py.git
+git clone YOUR_REPO_LINK
 ```
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
 
-Run project:
+---
 
-```bash
+## Step 3: Run Any Project
+
+Each project runs independently.
+
+Example:
+
+cd todo-api
+python app.py
+
+OR
+
+cd jwt-auth-system
 python app.py
 ```
 
