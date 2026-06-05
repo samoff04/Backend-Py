@@ -1,143 +1,206 @@
 # Python Backend Portfolio
 
-A complete backend development portfolio built using **Python, Flask, and SQLite**, focused on REST APIs, authentication systems, URL shortening systems, database handling, and scalable backend architecture.
+A complete backend development portfolio built using **Python, Flask, and SQLite**, focused on REST APIs, authentication systems, URL shortening systems, file handling, database integration, and scalable backend architecture.
 
-This repository demonstrates a structured progression from beginner-level CRUD APIs to intermediate backend systems suitable for internship and entry-level backend developer roles.
-
----
-
-## Overview
-
-This repository contains multiple backend projects built to develop real-world backend engineering skills step by step. Each project focuses on a core backend concept used in production systems such as APIs, authentication, databases, system design, and scalable backend workflows.
-
-The goal of this repository is to show a clear learning path from basic API creation to advanced backend systems with authentication, modular design, and real-world logic implementation.
+This repository demonstrates a structured learning progression from beginner-level CRUD APIs to intermediate backend systems suitable for internship and entry-level backend developer roles.
 
 ---
 
-## Projects Included
+# Overview
 
-### 1. Todo API
-A basic CRUD API for task management.
+This repository contains multiple backend projects designed to build real-world backend engineering skills step by step. Each project focuses on core backend concepts used in production systems such as API design, authentication, database handling, modular architecture, and system design fundamentals.
 
-Concepts: Flask basics, REST APIs, JSON request/response handling, CRUD operations.
-
----
-
-### 2. Student Management System
-Backend system with SQLite database integration.
-
-Concepts: Flask + SQLite integration, database operations, persistent storage, structured CRUD design.
+The goal is to demonstrate practical backend development skills with clean structure, reusable code, and scalable design patterns.
 
 ---
 
-### 3. Blog API
-Structured backend system for blog management.
+# Projects Included
 
-Concepts: Blueprint architecture, modular backend design, RESTful APIs, timestamp handling.
+## 🔹 Todo API
+Basic task management backend system with CRUD operations.
 
----
-
-### 4. Authentication System
-Secure user authentication system.
-
-Concepts: Password hashing using bcrypt, user registration/login flow, service layer architecture, security fundamentals.
+Concepts:
+Flask basics, REST API design, JSON request/response handling, CRUD operations.
 
 ---
 
-### 5. E-Commerce Backend
-Mini backend simulating an e-commerce system.
+## 🔹 Student Management System
+Database-driven system for managing student records.
 
-Concepts: Multi-module architecture, business logic separation, product/cart/order flow, system design basics.
+Concepts:
+SQLite integration, persistent storage, CRUD with database operations.
 
 ---
 
-### 6. JWT Authentication System
+## 🔹 Blog API
+Structured backend system for blog posts.
+
+Concepts:
+Blueprint architecture, modular backend design, RESTful APIs, timestamp handling.
+
+---
+
+## 🔹 Authentication System
+User authentication system with secure password handling.
+
+Concepts:
+bcrypt password hashing, user registration/login flow, security fundamentals.
+
+---
+
+## 🔹 E-Commerce Backend
+Simplified backend simulating product-based system.
+
+Concepts:
+Product/cart/order flow, multi-module architecture, backend business logic.
+
+---
+
+## 🔹 JWT Authentication System
 Token-based authentication system used in real-world applications.
 
-Concepts: JWT token generation and verification, protected routes, token expiry handling, secure API design.
+Concepts:
+JWT token generation and verification, protected routes, secure API design, session-less authentication.
 
 ---
 
-### 7. Task Management API
+## 🔹 Task Management API
 Advanced task system with filtering and structured APIs.
 
-Concepts: User-based data handling, query filtering, status tracking, priority management, backend structuring.
+Concepts:
+User-based data handling, filtering, priority/status tracking, query-based APIs.
 
 ---
 
-### 8. URL Shortener System (Advanced Project)
-Real-world backend system similar to Bitly.
+## 🔹 URL Shortener System
+Bitly-like backend system for URL shortening.
 
-Concepts: URL shortening logic, unique code generation, redirect handling, click tracking analytics, JWT-protected APIs for authentication.
-
----
-
-## Tech Stack
-
-Python, Flask, SQLite, REST APIs, bcrypt, PyJWT
+Concepts:
+URL shortening logic, unique code generation, redirect handling, click tracking analytics.
 
 ---
 
-## Project Structure
+## 🔹 File Storage Backend System
+Cloud-style file storage backend system.
 
-InternProjects/  
-├── todo-api/  
-├── student-system/  
-├── blog-api/  
-├── auth-system/  
-├── ecommerce/  
-├── jwt-auth-system/  
-├── task-management-api/  
-└── url-shortener/  
+Concepts:
+File upload/download/delete APIs, file system handling, SQLite metadata storage, service-layer architecture.
 
 ---
 
-## How to Run
-Clone the repository:
-```
+# Tech Stack
+
+Python, Flask, SQLite, REST APIs, bcrypt, PyJWT, Werkzeug
+
+---
+
+# Project Structure
+
+InternProjects/
+│
+├── todo-api/
+├── student-system/
+├── blog-api/
+├── auth-system/
+├── ecommerce/
+├── jwt-auth-system/
+├── task-management-api/
+├── url-shortener/
+└── file-storage-app/
+
+---
+
+# How to Run Projects
+
+## Step 1: Clone Repository
 git clone https://github.com/samoff04/Backend-Py.git  
 cd Backend-Py  
-```
-Install dependencies:
-```
+
+---
+
+## Step 2: Install Dependencies
 pip install -r requirements.txt  
-```
-If required, initialize database:
-```
+
+---
+
+## Step 3: Initialize Database (if required)
 python init_db.py  
-```
-Run any project independently:
-```
-cd todo-api  
+
+---
+
+## Step 4: Run Any Project
+Each project runs independently.
+
+Example:
+cd file-storage-backend
 python app.py  
-```
-OR
-```
-cd url-shortener  
+
+OR  
+cd jwt-auth-system  
 python app.py  
-```
----
-
-## Testing APIs
-
-Use Postman, Thunder Client (VS Code), or browser (for GET routes and redirects).
 
 ---
 
-## Skills Demonstrated
+# Testing APIs
 
-REST API development, backend architecture design, authentication systems using bcrypt and JWT, URL shortening system design, SQLite database integration, modular Flask applications, filtering and query handling, real-world backend logic, and system design fundamentals.
+Use:
+Postman / Thunder Client / Browser (for GET endpoints)
 
 ---
 
-## Future Scope / Improvements
+# Skills Demonstrated
 
-This project can be extended into production-level systems with the following upgrades:
+REST API development  
+Backend architecture design  
+Authentication systems (bcrypt + JWT)  
+URL shortening system design  
+File handling systems  
+SQLite database integration  
+Modular Flask applications  
+Filtering and query handling  
+Real-world backend logic  
+System design fundamentals  
 
-Backend Improvements: PostgreSQL integration, Redis caching system, API rate limiting, logging and monitoring system.
+---
 
-Architecture Upgrades: FastAPI migration, microservices-based architecture, Docker containerization, CI/CD pipeline integration.
+# Learning Outcome
 
-Deployment: Hosting on Render, Railway, or AWS with live API endpoints and domain mapping.
+This repository demonstrates a clear progression in backend development:
 
-Security Enhancements: OAuth2 authentication, refresh tokens, and role-based access control (RBAC).
+Beginner → CRUD APIs  
+Intermediate → Authentication + File Systems  
+Advanced understanding → JWT + System Design Basics  
+
+---
+
+# Future Improvements
+
+This project can be extended into production-level backend systems with:
+
+Backend Enhancements:
+- PostgreSQL integration  
+- Redis caching system  
+- API rate limiting  
+- Logging and monitoring system  
+
+Architecture Upgrades:
+- FastAPI migration  
+- Microservices-based architecture  
+- Docker containerization  
+- CI/CD pipeline integration  
+
+Deployment:
+- Render / Railway / AWS hosting  
+- Domain mapping  
+- Live API endpoints  
+
+Security Enhancements:
+- OAuth2 authentication  
+- Refresh tokens  
+- Role-based access control (RBAC)  
+
+---
+
+# Author
+
+Samarth Varshney
