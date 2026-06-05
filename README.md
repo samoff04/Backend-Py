@@ -113,22 +113,26 @@ InternProjects/
 # How to Run Projects
 
 ## Step 1: Clone Repository
+```
 git clone https://github.com/samoff04/Backend-Py.git  
 cd Backend-Py  
-
+```
 ---
 
 ## Step 2: Install Dependencies
+```
 pip install -r requirements.txt  
-
+```
 ---
 
 ## Step 3: Initialize Database (if required)
+```
 python init_db.py  
-
+```
 ---
 
 ## Step 4: Run Any Project
+```
 Each project runs independently.
 
 Example:
@@ -138,7 +142,7 @@ python app.py
 OR  
 cd jwt-auth-system  
 python app.py  
-
+```
 ---
 
 # Testing APIs
