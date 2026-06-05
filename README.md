@@ -95,7 +95,7 @@ Python, Flask, SQLite, REST APIs, bcrypt, PyJWT, Werkzeug
 ---
 
 # Project Structure
-
+```
 InternProjects/
 │
 ├── todo-api/
@@ -107,7 +107,7 @@ InternProjects/
 ├── task-management-api/
 ├── url-shortener/
 └── file-storage-app/
-
+```
 ---
 
 # How to Run Projects
